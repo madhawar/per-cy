@@ -8,6 +8,7 @@ describe('sampath bank ex', () => {
   beforeEach(() => {
     cy.visit('https://picsum.photos').then(() => {
       // cy.url().should('eq', 'https://www.sampath.lk/en/exchange-rates')
+      cy.percySnapshot('Sampath Bank');
     })
   })
 
@@ -17,9 +18,7 @@ describe('sampath bank ex', () => {
   //     cy.get('p').contains('Daily Exchange rates as at').invoke('text').then((message) => {
   //       cy.log(`${message} T/T Buying U.K. Pound ${tt_buying}`)
   //     })
-  //   })
-
-    cy.percySnapshot('Sampath Bank');
-  })
+  //   })    
+  // })
 
 })
