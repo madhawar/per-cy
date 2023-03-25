@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "@faker-js/faker": "^7.6.0",
+    "@percy/cli": "^1.21.0",
+    "@percy/cypress": "^3.1.2",
+    "cypress": "^12.8.1",
+    "dayjs": "^1.11.7"
+  }
+}
